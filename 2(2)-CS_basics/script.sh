@@ -92,7 +92,6 @@ execute_scripts() {
 
 # ---------------------------------------------------
 # mypy 테스트 (경고 없이 성공한 스크립트만 대상)
-# mypy 결과가 두 번째 스샷처럼 초록색 Success 메세지로 나오도록 유도
 run_mypy_tests() {
     if [ ${#successful_scripts[@]} -eq 0 ]; then
         echo "[INFO] No successfully executed scripts found. Skipping mypy tests."
