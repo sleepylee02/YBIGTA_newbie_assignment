@@ -1,6 +1,6 @@
-PATH_1 = "/Users/lee/Desktop/0Moi/0Work_doing/0와빅/겨울방학 세션/25.01.07/개발환경/2Python/1-divide-and-conquer-multiplication"
-PATH_2 = "/Users/lee/Desktop/0Moi/0Work_doing/0와빅/겨울방학 세션/25.01.07/개발환경/2Python/2-trie"
-PATH_3 = "/Users/lee/Desktop/0Moi/0Work_doing/0와빅/겨울방학 세션/25.01.07/개발환경/2Python/3-segment-tree"
+PATH_1 = "./1-divide-and-conquer-multiplication"
+PATH_2 = "./2-trie"
+PATH_3 = "./3-segment-tree"
 
 ROOT_PATH = {
     "10830": PATH_1,
@@ -11,7 +11,7 @@ ROOT_PATH = {
     "17408": PATH_3
 }
 
-PATH_SUB = "/Users/lee/Desktop/0Moi/0Work_doing/0와빅/겨울방학 세션/25.01.07/개발환경/2Python/submission"
+PATH_SUB = "./submission"
 
 
 def f(n: str) -> None:
